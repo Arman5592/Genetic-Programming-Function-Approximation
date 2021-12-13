@@ -6,8 +6,8 @@ The main goal has been simplicity, which has hindered the program's performance 
 to follow.
 
 ### Prerequisites
-anytree
-pandas
+anytree\
+pandas\
 default libraries: time, math, random, copy
 
 ### Application
