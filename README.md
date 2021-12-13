@@ -1,7 +1,7 @@
 # Genetic-Programming-Function-Approximation
 
 ### Introduction
-This is a minimalist genetic program which approximates a function (expression tree) from points (x, y).
+This is a minimalist genetic program which approximates a function (expression tree) from points (x, y).\
 The main goal has been simplicity, which has hindered the program's performance but makes the code easier
 to follow.
 
@@ -11,12 +11,12 @@ pandas\
 default libraries: time, math, random, copy
 
 ### Application
-Can approximate a function f(x) from points in a csv file. 'pointgen.py' can be utilized to generate such points.
+Can approximate a function f(x) from points in a csv file. 'pointgen.py' can be utilized to generate such points.\
 The result is saved in tree0.txt, as an expression tree.
 
 ### How to use
 The GP performs approximation on a two-column (x and y) csv file named 'points.csv' within the same directory. 
-In its current form, the program generates such a file using the functions in 'pointgen.py'.
+In its current form, the program generates such a file using the functions in 'pointgen.py'.\
 The source function - used to generate the points for approximation - can be changed within 
 'function' in 'pointgen.py'. Currently, it is set to ln(x) + sin(x^2) + 3cos(x), without any noise.
 Noise can be enabled by calling function(x, True) in line 19 of 'pointgen.py'.
